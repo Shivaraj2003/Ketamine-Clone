@@ -86,6 +86,8 @@ body {
     background-color: white;
     z-index: 3;
     margin-top: 50px;
+    padding: 2%;
+    text-align: justify;
 }
 
 .rose-container {
@@ -115,10 +117,10 @@ body {
 .content-left {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: space-around;
     width: 60%;
     padding: 20px;
-    height: fit-content;
+    /* height: fit-content; */
 
 }
 
@@ -174,7 +176,7 @@ input,textarea{
 }
 
 @media (max-width: 800px) {
-
+    
     .content-box {
         flex-direction: column;
         width: 100%;
