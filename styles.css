@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=Galdeano&family=Jaldi:wght@400;700&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,7 +7,7 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Jaldi;
 }
 
 .header {
@@ -44,17 +46,19 @@ body {
 }
 
 .header-content h1 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     font-weight: bolder;
     color: white;
     text-align: center;
     margin: 15px 0;
 }
 
-.header-content p {
-    font-size: 1rem;
-}
 
+
+
+.header-paragraph{
+    font-size: 20px;
+}
 .btn {
     background-color: #81bcba;
     border-radius: 0%;
@@ -144,7 +148,7 @@ input,textarea{
 .content-box {
     display: flex;
     height: 84%;
-    width: 70%;
+    width: 75%;
 }
 
 .content-right {
@@ -200,6 +204,9 @@ input,textarea{
     color: white;
 }
 
+.fa, .fa-brands{
+    color: #81bcba;
+}
 .footer li{
     list-style: none;
     margin-bottom: 10px;
