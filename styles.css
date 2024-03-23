@@ -325,6 +325,7 @@ align-items: center;}
 
     .text-conatiner {
         margin-top: -175px;
+        width: 100%;
     }
 
     .desc-container {
