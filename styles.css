@@ -115,6 +115,9 @@ body {
     font-size: 3.5em;
 }
 
+.feedback{
+    width: 80%;
+}
 
 .page-3 {
     margin-top: 50px;
@@ -332,3 +335,4 @@ align-items: center;}
         margin: auto;
     }
 }
+
